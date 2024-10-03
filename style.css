@@ -1,0 +1,62 @@
+/* General body styles */
+body {
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    color: #ffcc00; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px; 
+}
+
+/* Headline (h1) */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Subheadings (h2) */
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin: 30px 0 15px;
+    color: #ffcc00; 
+}
+
+/* Paragraph styles */
+p {
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+}
+
+/* Profile section */
+.profile {
+    display: inline-block;
+    width: 220px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image is cropped to fill the 200px space */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile p {
+    color: #ffcc00;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
